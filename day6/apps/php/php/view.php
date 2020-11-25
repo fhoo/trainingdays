@@ -14,7 +14,7 @@ $sql 	= 'SELECT * FROM visitors';
 $query 	= mysqli_query($conn, $sql);
 while ($info = mysqli_fetch_array($query))
 { 
-Echo "<img src=http://127.0.0.1/images/".$info['photo'] ."> <br>"; 
+Echo "<img src=/images/".$info['photo'] ."> <br>"; 
 Echo "<b>Photo:</b> ".$info['photo'] . "<br> ";
 Echo "<b>Name:</b> ".$info['name'] . "<br> "; 
 Echo "<b>Email:</b> ".$info['email'] . " <br>"; 
